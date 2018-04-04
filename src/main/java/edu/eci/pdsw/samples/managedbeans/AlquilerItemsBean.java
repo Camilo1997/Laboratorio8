@@ -34,6 +34,9 @@ public class AlquilerItemsBean implements Serializable {
     private int dias;
     private long costo;
 
+    /**
+     * Alquiler items
+     */
     public AlquilerItemsBean() {
         nuevoCliente = new Cliente();
         seleccionCliente = new Cliente();
