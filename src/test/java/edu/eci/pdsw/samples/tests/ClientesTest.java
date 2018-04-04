@@ -14,6 +14,7 @@ import edu.eci.pdsw.samples.entities.Item;
 import edu.eci.pdsw.samples.entities.ItemRentado;
 import edu.eci.pdsw.samples.entities.TipoItem;
 import edu.eci.pdsw.samples.services.ServiciosAlquiler;
+import edu.eci.pdsw.samples.services.ServiciosAlquilerFactory;
 import edu.eci.pdsw.samples.services.ServiciosAlquilerItemsStub;
 import java.util.ArrayList;
 
@@ -41,6 +42,8 @@ import java.util.ArrayList;
 public class ClientesTest {
 
     public ClientesTest() {
+        ServiciosAlquiler sa=ServiciosAlquilerFactory.getInstance().getServiciosAlquilerTesting();
+
     }
     
     @Before

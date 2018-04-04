@@ -17,6 +17,15 @@ public class ItemRentado implements Serializable{
     private Item item;
     private Date fechainiciorenta;
     private Date fechafinrenta;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     
 
     public ItemRentado(Item item, Date fechainiciorenta, Date fechafinrenta) {
